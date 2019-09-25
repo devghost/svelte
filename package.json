@@ -1,0 +1,32 @@
+{
+  "name": "svelte-skeleton-app",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "npm run lint && npx prettier --write --plugin-search-dir=. ./**/*.svelte && parcel build --no-source-maps index.html",
+    "lint": "eslint --cache --ext .js src/",
+    "lint:fix": "eslint --cache --ext .js --fix --rule --rule \"no-debugger: 0\" src/"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.6.2",
+    "@testing-library/svelte": "^1.8.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-svelte3": "^2.7.3",
+    "jest": "^24.9.0",
+    "jest-transform-svelte": "^2.1.0",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-svelte": "^4.0.4",
+    "prettier": "^1.18.2",
+    "prettier-plugin-svelte": "^0.7.0",
+    "svelte": "^3.0.0",
+    "svelte-preprocess": "^3.1.1"
+  }
+}

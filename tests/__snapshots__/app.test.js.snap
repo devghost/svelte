@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App must snapshot 1`] = `
+<body>
+  <div>
+    <h1>
+      Hello 
+      world
+      !
+    </h1>
+  </div>
+</body>
+`;
