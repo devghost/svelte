@@ -31,10 +31,11 @@ module.exports = {
   transform: {
     "^.+\\.js$": "babel-jest",
     "^.+\\.svelte$": [
-      "jest-transform-svelte",
-      {
-        preprocess: sveltePreprocess()
-      }
+      "jest-transform-svelte"
+      // {
+      //   debug: true,
+      //   preprocess: sveltePreprocess()
+      // }
     ]
   },
 
