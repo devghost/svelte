@@ -1,4 +1,6 @@
-# A Svelte template
+![Svelte logo](https://avatars2.githubusercontent.com/u/23617963?s=200&v=4)
+
+# A Svelte ❤️ Parcel template
 
 This is a Svelte template using Parcel
 
