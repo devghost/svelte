@@ -6,11 +6,11 @@ This is a Svelte template using Parcel
 
 ## Included in template
 
-- Bundling using Parcel
-- Testing with Jest (with Snapshot support)
-- Formatting with ESLint and Prettier
-- Transpiling with Babel
-- Wallaby enabled
+- Bundling using [Parcel](https://parceljs.org/)
+- Testing with [Jest](https://jestjs.io/) (with Snapshot support)
+- Formatting with [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
+- Transpiling with [Babel](https://babeljs.io/)
+- [Wallaby](https://wallabyjs.com/) enabled
 
 ## Getting started
 
