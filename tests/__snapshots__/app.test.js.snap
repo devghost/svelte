@@ -3,7 +3,9 @@
 exports[`App must snapshot 1`] = `
 <body>
   <div>
-    <h1>
+    <h1
+      class="svelte-1ucbz36"
+    >
       Hello 
       world
       !

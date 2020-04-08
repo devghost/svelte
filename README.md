@@ -26,8 +26,6 @@ To build the project run the following:
 
 ## Tests
 
-_NOTE: Current open issue in jest-transform-svelte when adding preprocessor tests get stuck in an infinite loop (works in Wallaby though), ref: https://github.com/rspieker/jest-transform-svelte/issues/12_
-
 I prefer running my tests using Wallaby, but if you prefer plain old command line, just type the following to run your tests:
 
     npm t
