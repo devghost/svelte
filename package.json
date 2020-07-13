@@ -10,24 +10,24 @@
     "lint:fix": "eslint --cache --ext .js --fix --rule \"no-debugger: 0\" src/"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
-    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-env": "^7.10.4",
     "@testing-library/svelte": "^3.0.0",
     "babel-eslint": "^10.1.0",
-    "babel-jest": "^25.2.6",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
+    "babel-jest": "^26.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-svelte3": "^2.7.3",
-    "jest": "^25.2.7",
+    "jest": "^26.1.0",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-svelte": "^4.0.6",
-    "prettier": "^2.0.4",
-    "prettier-plugin-svelte": "^0.7.0",
-    "svelte": "^3.20.1",
-    "svelte-jester": "^1.0.5",
-    "svelte-preprocess": "^3.7.1"
+    "prettier": "^2.0.5",
+    "prettier-plugin-svelte": "^1.1.0",
+    "svelte": "^3.24.0",
+    "svelte-jester": "^1.0.6",
+    "svelte-preprocess": "^4.0.7"
   }
 }
